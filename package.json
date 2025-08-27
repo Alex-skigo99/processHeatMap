@@ -1,11 +1,16 @@
 {
   "name": "process_heatmap",
   "version": "1.0.0",
-  "description": "",
+  "description": "AWS Lambda function for fetching Semrush Map Rank Tracker heatmap data",
   "type": "module",
   "main": "index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.mjs",
+    "auth": "node auth-cli.mjs",
+    "auth:get-token": "node auth-cli.mjs get-token",
+    "auth:validate": "node auth-cli.mjs validate",
+    "auth:campaigns": "node auth-cli.mjs campaigns",
+    "dev": "node test.mjs"
   },
   "keywords": [],
   "author": "",

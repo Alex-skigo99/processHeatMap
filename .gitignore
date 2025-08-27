@@ -137,3 +137,14 @@ dist
 
 *.zip
 .DS_Store
+
+# Semrush OAuth tokens (contains sensitive data)
+.semrush-tokens.json
+
+# AWS deployment files
+.aws-sam/
+samconfig.toml
+
+# AWS CLI output
+response.json
+trust-policy.json
